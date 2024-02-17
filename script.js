@@ -41,6 +41,11 @@ function prevSlide() {
   }
   showSlide();
 }
+function random() {
+  let randomIndex = Math.floor(Math.random() * array.length);
+  currentIndex = randomIndex;
+  showSlide();
+}
 
 function showSlide() {
   const slide = array[currentIndex];
@@ -48,7 +53,7 @@ function showSlide() {
   slideContainer.innerHTML = `
     <div class="slide">
      <div class="quote">
-          <span class="icon"><i class="fa-solid fa-quote-right"></i></span>
+          <button class="icon"><i class="fa-solid fa-quote-right"></i></button>
         </div>
     <div class="slide-image">
       <img class="Image" src="${slide.img}" alt="${slide.name}">
@@ -62,3 +67,4 @@ function showSlide() {
   `;
 }
 showSlide();
+Math.floor(math.showSlide());

@@ -48,11 +48,9 @@ body {
 
 .name {
   font-size: 1.563rem;
-  font-weight: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .buttons {
@@ -76,12 +74,13 @@ button:hover {
 }
 
 .Profession {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   text-transform: uppercase;
   color: #645cff;
-  font-size: 1.125rem;
-  font-weight: 100;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: -22px;
+  /* margin-bottom: 50px; */
   /* margin-bottom: 20px; */
 }
 .info {
@@ -126,10 +125,22 @@ button:hover {
   top: 2.5pc;
 }
 .icon {
-  font-weight: 100;
+  font-weight: 400;
   position: absolute;
-  font-size: 22px;
-  top: 0.5pc;
+  font-size: 18px;
+  top: 0.6pc;
   left: 0.7pc;
+}
+.fa-solid {
   color: white;
+}
+.fa-greater-than {
+  color: blue;
+  font-weight: 400;
+  font-size: 20px;
+}
+.fa-less-than {
+  color: blue;
+  font-weight: 400;
+  font-size: 20px;
 }
